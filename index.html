@@ -124,13 +124,10 @@
       </div>
     </div>
   </section>
-<div class="cta">
- <img src="images/CTA.png" alt="">
-  <!-- <div class="cta-content">
-    <h2>Ready to take your business to the next level?</h2>
-    <p>Contact us today for a free consultation and discover how we can help you achieve your goals.</p>
-    <a href="#contact" class="btn primary">Get Started</a>
-  </div> -->
+<div class="cta" style="background: linear-gradient(rgba(87, 84, 84, 0.85), rgba(78, 77, 77, 0.85)), url('images/fe22546f1141cb9631c320b636804535814daf4c.jpg') center/cover no-repeat; min-height: 300px; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; margin: 40px 148px;">
+  <h2 style="font-size: 2rem; font-weight: 700; margin-bottom: 12px; color: #fff;">Request a Customized<br> Solution for Your Business!</h2>
+  <p style="font-size: 1.1rem; color: #fff; margin-bottom: 24px;">Every business is unique. Request a tailored solution crafted<br> specifically for your organization's challenges and goals.</p>
+  <a href="#contact" class="btn primary">Get Started</a>
 </div>
  
   <!-- Pricing Section -->
@@ -184,8 +181,9 @@
         </div>
       </div>
     </div>
-    <div class="fffff">
- <a href="#" class="btn outline">VIEW ALL </a>
+    </div>
+    <div class="fffff" style="display: flex; justify-content: center; align-items: flex-end; height: 100px; width: 100%; box-sizing: border-box; margin-top: 20px;">
+ <a href="#" class="btn outline" style="min-width: 140px; text-align: center;">VIEW ALL </a>
     </div>
     
   </div>
@@ -259,7 +257,70 @@
   </div>
 </section>
 
-
+<style>
+/* Responsive adjustments for all major sections */
+@media (max-width: 1200px) {
+  .containers, .container, [style*='max-width: 1200px'] {
+    padding-left: 32px !important;
+    padding-right: 32px !important;
+  }
+  .cta {
+    margin: 40px 32px !important;
+  }
+  #case-studies[style] {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+}
+@media (max-width: 900px) {
+  .hero-content, .about-content, .service-grid {
+    flex-direction: column !important;
+    gap: 32px !important;
+  }
+  .cta {
+    margin: 32px 8px !important;
+    min-height: 220px !important;
+    padding: 16px !important;
+  }
+  #case-studies[style] > div[style*='padding: 0 169px'] {
+    padding: 0 16px !important;
+  }
+}
+@media (max-width: 600px) {
+  .navbar .container, .containers, .container {
+    flex-direction: column !important;
+    padding: 0 8px !important;
+  }
+  .cta {
+    margin: 16px 0 !important;
+    min-height: 140px !important;
+    padding: 8px !important;
+  }
+  .cta h2 {
+    font-size: 1.2rem !important;
+  }
+  .cta p {
+    font-size: 0.95rem !important;
+  }
+  #case-studies[style], #case-studies[style] > div[style*='max-width: 1200px'] {
+    padding: 20px 0 !important;
+  }
+  .fffff {
+    height: 50px !important;
+    margin-top: 0 !important;
+    padding-bottom: 10px !important;
+  }
+  .fffff .btn.outline {
+    min-width: 100px !important;
+    font-size: 0.95rem !important;
+    padding: 8px 18px !important;
+  }
+  .service-grid, .blog-grid {
+    grid-template-columns: 1fr !important;
+    gap: 16px !important;
+  }
+}
+</style>
 
   <!-- Footer Section -->
   <footer id="contact" class="footer">

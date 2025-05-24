@@ -430,8 +430,8 @@ h6 {
 
 .fffff{
   position: absolute;
-    right: 898px;
-    bottom: -2906px;
+    right: 752px;
+    bottom: -2992px;
 }
 
 /* Case Studies Section */
@@ -639,9 +639,12 @@ ul{
   border: 2px solid #007bff;
   color: #007bff;
   transition: background-color 0.3s ease, color 0.3s ease;
+  background-color: #fff;
 }
 
 .card a:hover {
   background-color: #007bff;
   color: #fff;
+  transform: scale(1.05);
+  box-shadow: 0 4px 10px rgba(0, 123, 255, 0.2);
 }
