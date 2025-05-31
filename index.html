@@ -1,15 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Zenith - Business Template</title>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha384-k6RqeWeci5ZR/Lv4MR0sA0FfDOM8d7x1z5l5e5c5e5e5e5e5e5e5e5e5e5e5e" crossorigin="anonymous" /><!-- Favicon -->
-<link rel="icon" type="image/x-icon" href="favicon.ico">
-
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/css/bootstrap.min.css"
+    crossorigin="anonymous">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
 </head>
+
 <body>
   <!-- Navbar -->
   <header class="navbar">
@@ -28,69 +32,82 @@
     </div>
   </header>
 
-  <!-- Hero Section -->
-  <section class="hero" id="home">
-    <div class="containers hero-content">
-      <div class="text-content">
-        <span class="tag">Strategize & Succeed</span>
-        <h1>Driving Success Through Strategic Guidance.</h1>
-        <p>These services can be tailored to meet the specific needs and challenges of each client, providing valuable expertise and support to drive business success.</p>
-        <div class="btn-group">
-          <a href="#contact" class="btn primary">Contact Us</a>
-          <a href="#" class="btn outline">Free Consult</a>
-        </div>
-        <div class="socials">
-          <span>Follow Us On:</span>
-          <a href="#"><img src="images/facebook.png" alt=""></a>
-          <a href="#"><img src="images/youtube.png" alt=""></a>
-          <a href="#"><img src="images/twitter.png" alt=""></a>
-          <a href="#"><img src="images/linkedin.png" alt=""></a>
-        </div>
+  <div class="container">
+    <div class="text-section">
+      <div class="badge">Strategize & Succeed</div>
+      <div class="headline">Driving Success Through Strategic Guidance.</div>
+      <p class="description">These services can be tailored to meet the specific needs and challenges of each client, providing valuable expertise and support to drive business success.</p>
+      <div class="buttons">
+        <button class="primary">CONTACT US</button>
+        <button class="outline">FREE CONSULT</button>
       </div>
-      <div class="image-content">
-        <div class="main-img">
-          <img src="images/Group 21.png" alt="Team Work" />
-          <div class="card rating"><img src="images/Frame 5.png" alt=""><br>4/5 Rating<br><small>From over 1500 reviews</small></div>
-          <div class="card customers">Satisfied Customers<br>
-            <img src="images/Rectangle 7.png" alt="Avatars" />
-            <img src="images/Rectangle 8.png" alt="Avatars" />
-            <img src="images/Rectangle 9.png" alt="Avatars" />
-            <img src="images/Group 25.png" alt="Avatars" />
+      <div class="socials">
+        Follow Us On:<br />
+        <i class="fa-brands fa-facebook-f"></i>
+        <i class="fa-brands fa-youtube"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-linkedin-in"></i>
+      </div>
+    </div>
+    <div class="image-section">
+      <img src="images/Group 21.png" class="main-img" alt="Team Meeting" />
+      <div class="rating-card">
+        <div class="stars">
+          ★★★★☆
+        </div>
+        <div><strong>4/5 Rating</strong></div>
+        <div>From over 1500 reviews</div>
+      </div>
+      <div class="customer-card">
+        <div>
+          <div>Satistfied Customers</div>
+          <div style="display: flex; align-items: center;">
+            <img src="https://randomuser.me/api/portraits/men/32.jpg" />
+            <img src="https://randomuser.me/api/portraits/women/44.jpg" />
+            <img src="https://randomuser.me/api/portraits/men/55.jpg" />
+            <span style="margin-left: 10px; font-weight: 600;">50+</span>
           </div>
         </div>
       </div>
     </div>
-  </section>
-<div class="loremdiv">
-  <img src="images/Logo1 1.png" alt="">
-  <img src="images/Logo2 1.png" alt="">
-  <img src="images/Logo3 1.png" alt="">
-  <img src="images/Logo4 1.png" alt="">
-  <img src="images/Logo5 1.png" alt="">
-</div>
+  </div>
+
+  <div class="logo-bar">
+    <img src="images/Logo5 1.png" alt="logo" />
+    <img src="images/Logo4 1.png" alt="logo" />
+    <img src="images/Logo3 1.png" alt="logo" />
+    <img src="images/Logo2 1.png" alt="logo" />
+    <img src="images/Logo1 1.png" alt="logo" />
+  </div>
+
+
+ 
+
+
+ 
   <!-- About Section -->
-   <section class="about">
-  <div class="container about-content">
-    <div class="about-left">
-      <img src="images/Group 27.png" alt="Team Collaboration" class="about-image" />
-    </div>
-    <div class="about-right">
-      <p class="tag">About Us</p>
-      <h2>Your Trusted Advisors in <span class="highlight">Business Success.</span></h2>
-      <p>
-        We understand the challenges and complexities that businesses face in today’s dynamic marketplace.
-        That’s why we offer a comprehensive suite of consulting services. Founded on the principles of
-        innovation, integrity, and excellence, we are a team of seasoned professionals.
-      </p>
-      <a href="#" class="btn primary">Read More</a>
-      <div class="stats">
-        <div><strong>500+</strong><br />Satisfied Customers</div>
-        <div><strong>10+</strong><br />Years Experience</div>
-        <div><strong>40+</strong><br />Projects Completed</div>
+  <section class="about">
+    <div class="container about-content">
+      <div class="about-left">
+        <img src="images/Group 27.png" alt="Team Collaboration" class="about-image" />
+      </div>
+      <div class="about-right">
+        <p class="tag">About Us</p>
+        <h2>Your Trusted Advisors in <span class="highlight">Business Success.</span></h2>
+        <p>
+          We understand the challenges and complexities that businesses face in today’s dynamic marketplace.
+          That’s why we offer a comprehensive suite of consulting services. Founded on the principles of
+          innovation, integrity, and excellence, we are a team of seasoned professionals.
+        </p>
+        <a href="#" class="btn primary">Read More</a>
+        <div class="stats">
+          <div><strong>500+</strong><br />Satisfied Customers</div>
+          <div><strong>10+</strong><br />Years Experience</div>
+          <div><strong>40+</strong><br />Projects Completed</div>
+        </div>
       </div>
     </div>
-  </div>
-</section>
+  </section>
 
   <!-- <section id="about" class="about">
     <div class="containers">
@@ -118,215 +135,564 @@
         <div class="service-box">
           <img src="images/marketing-strategy(1) 1.png" alt="">
           <h3>Market Research & Analysis</h3>
-          <p>Conduct thorough market research to provide insights into market trends, customer behaviors, and others.</p>
+          <p>Conduct thorough market research to provide insights into market trends, customer behaviors, and others.
+          </p>
           <a href="#">Learn More <img src="images/arrow-up-right.png" alt=""></a>
         </div>
       </div>
     </div>
   </section>
-<div class="cta" style="background: linear-gradient(rgba(87, 84, 84, 0.85), rgba(78, 77, 77, 0.85)), url('images/fe22546f1141cb9631c320b636804535814daf4c.jpg') center/cover no-repeat; min-height: 300px; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; margin: 40px 148px;">
-  <h2 style="font-size: 2rem; font-weight: 700; margin-bottom: 12px; color: #fff;">Request a Customized<br> Solution for Your Business!</h2>
-  <p style="font-size: 1.1rem; color: #fff; margin-bottom: 24px;">Every business is unique. Request a tailored solution crafted<br> specifically for your organization's challenges and goals.</p>
-  <a href="#contact" class="btn primary">Get Started</a>
-</div>
- 
-  <!-- Pricing Section -->
- <!-- CASE STUDIES SECTION - Replace your Pricing section with this -->
-<section id="case-studies" style="background-color: #EDF2F4; padding: 60px 0;">
-  <div style="max-width: 1200px; margin: 0 auto; padding: 0 169px;">
-    <div style="text-align: center; margin-bottom: 40px;">
-      <small style="color: #2b2d42; font-weight: bold;">Case Studies</small>
-      <h2 style="font-size: 2.5rem; font-weight: 700; margin: 10px 0;">Learn from Our Case Studies.</h2>
-      <p style="color: #555;">Each case study is a testament to our commitment to delivering measurable results and driving tangible value for our clients.</p>
-    </div>
-
-    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 30px;">
-      <!-- CARD 1 -->
-      <div style="background: white; border-radius: 10px; overflow: hidden; box-shadow: 0 4px 10px rgba(0,0,0,0.1);">
-        <img src="images/Rectangle 11.png" alt="Case 1" style="width: 100%; height: auto;">
-        <div style="padding: 20px;">
-          <p style="font-size: 0.85rem; color: #999;">April 2024</p>
-          <h4 style="font-size: 1.25rem; font-weight: 600;">Client: XYZ Tech Solutions</h4>
-          <a href="#" style="color: #007BFF; font-size: 0.9rem;">Read More →</a>
-        </div>
-      </div>
-
-      <!-- CARD 2 -->
-      <div style="background: white; border-radius: 10px; overflow: hidden; box-shadow: 0 4px 10px rgba(0,0,0,0.1);">
-        <img src="images/12.png" alt="Case 2" style="width: 100%; height: auto;">
-        <div style="padding: 20px;">
-          <p style="font-size: 0.85rem; color: #999;">March 2024</p>
-          <h4 style="font-size: 1.25rem; font-weight: 600;">Client: XYZ Tech Solutions</h4>
-          <a href="#" style="color: #007BFF; font-size: 0.9rem;">Read More →</a>
-        </div>
-      </div>
-
-      <!-- CARD 3 -->
-      <div style="background: white; border-radius: 10px; overflow: hidden; box-shadow: 0 4px 10px rgba(0,0,0,0.1);">
-        <img src="images/Rectangle 13.png" alt="Case 3" style="width: 100%; height: auto;">
-        <div style="padding: 20px;">
-          <p style="font-size: 0.85rem; color: #999;">January 2024</p>
-          <h4 style="font-size: 1.25rem; font-weight: 600;">Client: XYZ Tech Solutions</h4>
-          <a href="#" style="color: #007BFF; font-size: 0.9rem;">Read More →</a>
-        </div>
-      </div>
-
-      <!-- CARD 4 -->
-      <div style="background: white; border-radius: 10px; overflow: hidden; box-shadow: 0 4px 10px rgba(0,0,0,0.1);">
-        <img src="images/Rectangle 14.png" alt="Case 4" style="width: 100%; height: auto;">
-        <div style="padding: 20px;">
-          <p style="font-size: 0.85rem; color: #999;">February 2024</p>
-          <h4 style="font-size: 1.25rem; font-weight: 600;">Client: XYZ Tech Solutions</h4>
-          <a href="#" style="color: #007BFF; font-size: 0.9rem;">Read More →</a>
-        </div>
-      </div>
-    </div>
-    </div>
-    <div class="fffff" style="display: flex; justify-content: center; align-items: flex-end; height: 100px; width: 100%; box-sizing: border-box; margin-top: 20px;">
- <a href="#" class="btn outline" style="min-width: 140px; text-align: center;">VIEW ALL </a>
-    </div>
-    
+  <div class="cta"
+    style="background: linear-gradient(rgba(87, 84, 84, 0.85), rgba(78, 77, 77, 0.85)), url('images/fe22546f1141cb9631c320b636804535814daf4c.jpg') center/cover no-repeat; min-height: 300px; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; margin: 40px 148px;">
+    <h2 style="font-size: 2rem; font-weight: 700; margin-bottom: 12px; color: #fff;">Request a Customized<br> Solution
+      for Your Business!</h2>
+    <p style="font-size: 1.1rem; color: #fff; margin-bottom: 24px;">Every business is unique. Request a tailored
+      solution crafted<br> specifically for your organization's challenges and goals.</p>
+    <a href="#contact" class="btn primary">Get Started</a>
   </div>
-</section>
+
+  <!-- Pricing Section -->
+  <!-- CASE STUDIES SECTION - -->
+  <section id="case-studies" style="background-color: #EDF2F4; padding: 60px 0;">
+    <div  style="max-width: 1200px; margin: 0 auto; padding: 0 169px;">
+      <div  style="text-align: center; margin-bottom: 40px;">
+        <small style="color: #007BFF; font-weight: bold;">Case Studies</small>
+        <h2 style="font-size: 2.5rem; font-weight: 700; margin: 10px 0;">Learn from Our Case Studies.</h2>
+        <p style="color: #555;">Each case study is a testament to our commitment to delivering measurable results and
+          driving tangible value for our clients.</p>
+      </div>
+
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 30px;">
+        <!-- CARD 1 -->
+        <div class="case-card" style="background: white; border-radius: 10px; overflow: hidden; box-shadow: 0 4px 10px rgba(0,0,0,0.1);">
+          <img src="images/Rectangle 11.png" alt="Case 1" style="width: 100%; height: auto;">
+          <div style="padding: 20px;">
+            <p style="font-size: 0.85rem; color: #999;">April 2024</p>
+            <h4 style="font-size: 1.25rem; font-weight: 600;">Client: XYZ Tech Solutions</h4>
+            <a href="#" style="color: #007BFF; font-size: 0.9rem;">Read More →</a>
+          </div>
+        </div>
+
+        <!-- CARD 2 -->
+        <div class="case-card" style="background: white; border-radius: 10px; overflow: hidden; box-shadow: 0 4px 10px rgba(0,0,0,0.1);">
+          <img src="images/12.png" alt="Case 2" style="width: 100%; height: auto;">
+          <div style="padding: 20px;">
+            <p style="font-size: 0.85rem; color: #999;">March 2024</p>
+            <h4 style="font-size: 1.25rem; font-weight: 600;">Client: XYZ Tech Solutions</h4>
+            <a href="#" style="color: #007BFF; font-size: 0.9rem;">Read More →</a>
+          </div>
+        </div>
+
+        <!-- CARD 3 -->
+        <div class="case-card" style="background: white; border-radius: 10px; overflow: hidden; box-shadow: 0 4px 10px rgba(0,0,0,0.1);">
+          <img src="images/Rectangle 13.png" alt="Case 3" style="width: 100%; height: auto;">
+          <div style="padding: 20px;">
+            <p style="font-size: 0.85rem; color: #999;">January 2024</p>
+            <h4 style="font-size: 1.25rem; font-weight: 600;">Client: XYZ Tech Solutions</h4>
+            <a href="#" style="color: #007BFF; font-size: 0.9rem;">Read More →</a>
+          </div>
+        </div>
+
+        <!-- CARD 4 -->
+        <div class="case-card" style="background: white; border-radius: 10px; overflow: hidden; box-shadow: 0 4px 10px rgba(0,0,0,0.1);">
+          <img src="images/Rectangle 14.png" alt="Case 4" style="width: 100%; height: auto;">
+          <div style="padding: 20px;">
+            <p style="font-size: 0.85rem; color: #999;">February 2024</p>
+            <h4 style="font-size: 1.25rem; font-weight: 600;">Client: XYZ Tech Solutions</h4>
+            <a href="#" style="color: #007BFF; font-size: 0.9rem;">Read More →</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="fffff"
+      style="display: flex; justify-content: center; align-items: flex-end; height: 100px; width: 100%; box-sizing: border-box; margin-top: -19px;">
+      <a href="#" class="btn outline" style="min-width: 140px; text-align: center;">VIEW ALL </a>
+    </div>
+
+    </div>
+  </section>
 
   <!-- Blog Section -->
-  <section id="blog" class="blog">
-    <div class="containers">
-      <h2>Latest Blog Posts</h2>
-      <div class="blog-grid">
-        <div class="blog-post">
-          <h3>5 Business Trends in 2025</h3>
-          <p>Discover what’s shaping the future of business and how you can stay ahead of the curve.</p>
+  <section class="why-choose-us">
+    <div class="container">
+      <div class="content">
+        <div class="text">
+          <small class="highlight">Why Choose Us</small>
+          <h2>We Can Help You To<br>Grow <span class="blue-text">Your Business.</span></h2>
+          <p>
+            When you choose Zenith, you're not just hiring a consulting firm –
+            you're partnering with a team of dedicated professionals who are
+            invested in your success.
+          </p>
+          <ul class="features">
+            <li>✔ Strategic Approach</li>
+            <li>✔ Industry Expertise</li>
+            <li>✔ Client-Centric Focus</li>
+            <li>✔ Collaborative Partnership</li>
+            <li>✔ Collaborative Partnership</li>
+            <li>✔ Results-Driven Approach</li>
+            <li>✔ Ethical Standards</li>
+          </ul>
+          <button class="btn">Read More</button>
         </div>
-        <div class="blog-post">
-          <h3>Maximizing ROI with Strategy</h3>
-          <p>Learn the secrets of improving your return on investment through strategic guidance.</p>
+        <div class="image">
+          <div class="image-frame">
+            <img src="images/Group 28.png" alt="Business Presentation" />
+          </div>
         </div>
       </div>
     </div>
   </section>
 
- <!-- Full HTML structure for Pricing-style Case Studies section without Bootstrap -->
-<section id="case-studies" style="padding: 60px 20px; background-color: #f8f9fa;">
-  <div style="max-width: 1200px; margin: 0 auto;">
-    <div style="text-align: center; margin-bottom: 40px;">
-      <small style="color: #007bff; font-weight: bold;">Hiring Plans</small>
-      <h2 style="font-size: 32px; font-weight: bold; margin: 10px 0;">Pricing That Suits Your Needs.</h2>
-      <p style="color: #6c757d;">Whether you're a startup or a multinational corporation looking for comprehensive support.</p>
+
+  <!-- Full HTML structure for Pricing-style Case Studies section-->
+  <section id="case-studies" style="padding: 60px 20px; background-color: #f8f9fa;">
+    <div  style="max-width: 1200px; margin: 0 auto;">
+      <div style="text-align: center; margin-bottom: 40px;">
+        <small style="color: #007bff; font-weight: bold;">Hiring Plans</small>
+        <h2 style="font-size: 32px; font-weight: bold; margin: 10px 0;">Pricing That Suits Your Needs.</h2>
+        <p style="color: #6c757d;">Whether you're a startup or a multinational corporation looking for comprehensive
+          support.</p>
+      </div>
+      <div style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: center; text-align: center;">
+        <!-- Card 1 -->
+        <div class="case-link"
+          style="flex: 1 1 300px; background: #fff; border: 1px solid #dee2e6; border-radius: 12px; padding: 24px; box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);">
+          <h5 style="color: #007bff;">Basic Plan.</h5>
+          <h4 style="color: #6c757d;">Ideal for startups and small businesses looking for affordable consulting
+            services.</h4>
+          <h3 style="font-size: 28px; font-weight: bold; margin-top: 10px;">$49 <small
+              style="color: #6c757d; font-size: 16px;">/session</small></h3>
+          <a href="#"
+            style="display: inline-block; margin-top: 16px; padding: 10px 56px; border: 2px solid #007bff; color: #007bff; text-decoration: none; border-radius: 6px; font-weight: bold;">Learn
+            More</a>
+          <ul style="padding-left: 20px; color: #212529;">
+            <li> <img src="images/check-circle.png" alt=""> Initial consultation session to assess your needs and goals.
+            </li>
+            <li> <img src="images/check-circle.png" alt=""> Customized recommendations and actionable insights.</li>
+            <li> <img src="images/check-circle.png" alt=""> Limited support via email or phone.</li>
+          </ul>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="case-link"
+          style="flex: 1 1 300px; background: #fff; border: 1px solid #dee2e6; border-radius: 12px; padding: 24px; box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05); border-bottom: 6px solid #007bff;">
+          <h5 style="color: #007bff;">Standard Plan.</h5>
+          <h4 style="color: #6c757d;">Perfect for growing businesses needing more in-depth analysis and support.</h4>
+          <h3 style="font-size: 28px; font-weight: bold; margin-top: 10px;">$69 <small
+              style="color: #6c757d; font-size: 16px;">/session</small></h3>
+          <a href="#"
+            style="display: inline-block; margin-top: 16px; padding: 10px 56px; background-color: #007bff; color: #fff; text-decoration: none; border-radius: 6px; font-weight: bold;">Learn
+            More</a>
+          <ul style="padding-left: 20px; color: #212529;">
+            <li> <img src="images/check-circle.png" alt=""> Initial consultation session to assess your needs and goals.
+            </li>
+            <li> <img src="images/check-circle.png" alt=""> Customized recommendations and actionable insights.</li>
+            <li> <img src="images/check-circle.png" alt=""> Limited support via email or phone.</li>
+          </ul>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="case-link"
+          style="flex: 1 1 300px; background: #fff; border: 1px solid #dee2e6; border-radius: 12px; padding: 24px; box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);">
+          <h5 style="color: #007bff;">Premium Plan.</h5>
+          <h4 style="color: #6c757d;">Comprehensive support for established businesses seeking strategic growth.</h4>
+          <h3 style="font-size: 28px; font-weight: bold; margin-top: 10px;">$99 <small
+              style="color: #6c757d; font-size: 16px;">/session</small></h3>
+          <a href="#"
+            style="display: inline-block; margin-top: 16px; padding: 10px 56px; border: 2px solid #007bff; color: #007bff; text-decoration: none; border-radius: 6px; font-weight: bold;">Learn
+            More</a>
+          <ul style="padding-left: 20px; color: #212529;">
+            <li> <img src="images/check-circle.png" alt=""> Initial consultation session to assess your needs and goals.
+            </li>
+            <li> <img src="images/check-circle.png" alt=""> Customized recommendations and actionable insights.</li>
+            <li> <img src="images/check-circle.png" alt=""> Unlimited support via email or phone.</li>
+          </ul>
+        </div>
+      </div>
     </div>
-    <div style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: center; text-align: center;">
-      <!-- Card 1 -->
-      <div style="flex: 1 1 300px; background: #fff; border: 1px solid #dee2e6; border-radius: 12px; padding: 24px; box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);">
-        <h5 style="color: #007bff;">Basic Plan.</h5>
-        <h4 style="color: #6c757d;">Ideal for startups and small businesses looking for affordable consulting services.</h4>
-        <h3 style="font-size: 28px; font-weight: bold; margin-top: 10px;">$49 <small style="color: #6c757d; font-size: 16px;">/session</small></h3>
-         <a href="#" style="display: inline-block; margin-top: 16px; padding: 10px 56px; border: 2px solid #007bff; color: #007bff; text-decoration: none; border-radius: 6px; font-weight: bold;">Learn More</a>
-        <ul style="padding-left: 20px; color: #212529;">
-          <li> <img src="images/check-circle.png" alt=""> Initial consultation session to assess your needs and goals.</li>
-          <li> <img src="images/check-circle.png" alt=""> Customized recommendations and actionable insights.</li>
-          <li> <img src="images/check-circle.png" alt=""> Limited support via email or phone.</li>
-        </ul>
-             </div>
+  </section>
 
-      <!-- Card 2 -->
-      <div style="flex: 1 1 300px; background: #fff; border: 1px solid #dee2e6; border-radius: 12px; padding: 24px; box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05); border-bottom: 6px solid #007bff;">
-        <h5 style="color: #007bff;">Standard Plan.</h5>
-        <h4 style="color: #6c757d;">Perfect for growing businesses needing more in-depth analysis and support.</h4>
-        <h3 style="font-size: 28px; font-weight: bold; margin-top: 10px;">$69 <small style="color: #6c757d; font-size: 16px;">/session</small></h3>
-         <a href="#" style="display: inline-block; margin-top: 16px; padding: 10px 56px; background-color: #007bff; color: #fff; text-decoration: none; border-radius: 6px; font-weight: bold;">Learn More</a>
-        <ul style="padding-left: 20px; color: #212529;">
-          <li> <img src="images/check-circle.png" alt=""> Initial consultation session to assess your needs and goals.</li>
-          <li> <img src="images/check-circle.png" alt=""> Customized recommendations and actionable insights.</li>
-          <li> <img src="images/check-circle.png" alt=""> Limited support via email or phone.</li>
-        </ul>
-          </div>
+  <!-- Blog Section -->
 
-      <!-- Card 3 -->
-      <div style="flex: 1 1 300px; background: #fff; border: 1px solid #dee2e6; border-radius: 12px; padding: 24px; box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);">
-        <h5 style="color: #007bff;">Premium Plan.</h5>
-        <h4 style="color: #6c757d;">Comprehensive support for established businesses seeking strategic growth.</h4>
-        <h3 style="font-size: 28px; font-weight: bold; margin-top: 10px;">$99 <small style="color: #6c757d; font-size: 16px;">/session</small></h3>
-         <a href="#" style="display: inline-block; margin-top: 16px; padding: 10px 56px; border: 2px solid #007bff; color: #007bff; text-decoration: none; border-radius: 6px; font-weight: bold;">Learn More</a>
-        <ul style="padding-left: 20px; color: #212529;">
-          <li> <img src="images/check-circle.png" alt=""> Initial consultation session to assess your needs and goals.</li>
-          <li> <img src="images/check-circle.png" alt=""> Customized recommendations and actionable insights.</li>
-          <li> <img src="images/check-circle.png" alt=""> Unlimited support via email or phone.</li>
-        </ul>
-             </div>
+  <!-- Metrics Top Bar -->
+  <div class="metrics-bar "
+    style="display: flex; justify-content: space-around; padding: 20px 20px; margin: 30px 0px; background-color: #000; border-bottom: 1px solid #dee2e6; color: #fff; font-size: 1.2rem;">
+    <div>
+      <h4>500+</h4>
+      <p>Satisfied Customers</p>
+    </div>
+    <div>
+      <h4>10+</h4>
+      <p>Years Experience</p>
+    </div>
+    <div>
+      <h4>20+</h4>
+      <p>Branch Office</p>
+    </div>
+    <div>
+      <h4>40+</h4>
+      <p>Projects Completed</p>
     </div>
   </div>
-</section>
 
-<style>
-/* Responsive adjustments for all major sections */
-@media (max-width: 1200px) {
-  .containers, .container, [style*='max-width: 1200px'] {
-    padding-left: 32px !important;
-    padding-right: 32px !important;
-  }
-  .cta {
-    margin: 40px 32px !important;
-  }
-  #case-studies[style] {
-    padding-left: 0 !important;
-    padding-right: 0 !important;
-  }
-}
-@media (max-width: 900px) {
-  .hero-content, .about-content, .service-grid {
-    flex-direction: column !important;
-    gap: 32px !important;
-  }
-  .cta {
-    margin: 32px 8px !important;
-    min-height: 220px !important;
-    padding: 16px !important;
-  }
-  #case-studies[style] > div[style*='padding: 0 169px'] {
-    padding: 0 16px !important;
-  }
-}
-@media (max-width: 600px) {
-  .navbar .container, .containers, .container {
-    flex-direction: column !important;
-    padding: 0 8px !important;
-  }
-  .cta {
-    margin: 16px 0 !important;
-    min-height: 140px !important;
-    padding: 8px !important;
-  }
-  .cta h2 {
-    font-size: 1.2rem !important;
-  }
-  .cta p {
-    font-size: 0.95rem !important;
-  }
-  #case-studies[style], #case-studies[style] > div[style*='max-width: 1200px'] {
-    padding: 20px 0 !important;
-  }
-  .fffff {
-    height: 50px !important;
-    margin-top: 0 !important;
-    padding-bottom: 10px !important;
-  }
-  .fffff .btn.outline {
-    min-width: 100px !important;
-    font-size: 0.95rem !important;
-    padding: 8px 18px !important;
-  }
-  .service-grid, .blog-grid {
-    grid-template-columns: 1fr !important;
-    gap: 16px !important;
-  }
-}
-</style>
+  <!-- Team Section (Matured Look) -->
+  <section class="team-section" style="background: #f7fafd; padding: 60px 0;">
+    <div class="containers">
+      <div style="text-align: center; margin-bottom: 40px;">
+        <small style="color: #007bff; font-weight: bold; letter-spacing: 1px;">Our Team</small>
+        <h2 style="font-size: 2.5rem; font-weight: 700; margin: 10px 0 18px 0; color: #222;">Meet Our <span
+            style="color: #006485;">Smart People</span></h2>
+        <p style="color: #555; font-size: 1.1rem; max-width: 600px; margin: 0 auto;">With a diverse range of expertise
+          and a commitment to excellence, our team delivers innovative solutions that drive real results for your
+          business.</p>
+      </div>
+      <div class="team-matured-grid" style="display: flex; flex-wrap: wrap; gap: 32px; justify-content: center;">
+        <!-- Member 1 -->
+        <div class="team-matured-member"
+          style="background: #fff; border-radius: 16px; box-shadow: 0 4px 24px rgba(0,0,0,0.07); padding: 32px 24px; max-width: 260px; flex: 1 1 220px; display: flex; flex-direction: column; align-items: center; transition: box-shadow 0.2s;">
+          <img src="images/pic1.png" alt="Jonathan Andrew"
+            style="width: 90px; height: 90px; border-radius: 50%; object-fit: cover; border: 4px solid #e6f0fa; margin-bottom: 18px;">
+          <h4 style="margin: 0 0 6px 0; font-size: 1.15rem; color: #222; font-weight: 600;">Jonathan Andrew</h4>
+          <p style="font-size: 0.98rem; color: #007bff; margin-bottom: 10px;">CEO Zenith</p>
+          <div style="height: 2px; width: 40px; background: #007bff; margin-bottom: 12px;"></div>
+          <p style="font-size: 0.97rem; color: #666; text-align: center; margin-bottom: 18px;">Visionary leader with 15+
+            years in business strategy and transformation.</p>
+          <div class="social-icons" style="display: flex; gap: 12px;">
+            <a href="#" style="color: #007bff;"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" style="color: #007bff;"><i class="fab fa-twitter"></i></a>
+            <a href="#" style="color: #007bff;"><i class="fab fa-instagram"></i></a>
+            <a href="#" style="color: #007bff;"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+        </div>
+        <!-- Member 2 -->
+        <div class="team-matured-member"
+          style="background: #fff; border-radius: 16px; box-shadow: 0 4px 24px rgba(0,0,0,0.07); padding: 32px 24px; max-width: 260px; flex: 1 1 220px; display: flex; flex-direction: column; align-items: center; transition: box-shadow 0.2s;">
+          <img src="images/pic2.png" alt="Sarah Keihl"
+            style="width: 90px; height: 90px; border-radius: 50%; object-fit: cover; border: 4px solid #e6f0fa; margin-bottom: 18px;">
+          <h4 style="margin: 0 0 6px 0; font-size: 1.15rem; color: #222; font-weight: 600;">Sarah Keihl</h4>
+          <p style="font-size: 0.98rem; color: #007bff; margin-bottom: 10px;">Creative Director</p>
+          <div style="height: 2px; width: 40px; background: #007bff; margin-bottom: 12px;"></div>
+          <p style="font-size: 0.97rem; color: #666; text-align: center; margin-bottom: 18px;">Expert in branding and
+            creative strategy with a passion for innovation.</p>
+          <div class="social-icons" style="display: flex; gap: 12px;">
+            <a href="#" style="color: #007bff;"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" style="color: #007bff;"><i class="fab fa-twitter"></i></a>
+            <a href="#" style="color: #007bff;"><i class="fab fa-instagram"></i></a>
+            <a href="#" style="color: #007bff;"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+        </div>
+        <!-- Member 3 -->
+        <div class="team-matured-member"
+          style="background: #fff; border-radius: 16px; box-shadow: 0 4px 24px rgba(0,0,0,0.07); padding: 32px 24px; max-width: 260px; flex: 1 1 220px; display: flex; flex-direction: column; align-items: center; transition: box-shadow 0.2s;">
+          <img src="images/pic.png" alt="Michael Smith"
+            style="width: 90px; height: 90px; border-radius: 50%; object-fit: cover; border: 4px solid #e6f0fa; margin-bottom: 18px;">
+          <h4 style="margin: 0 0 6px 0; font-size: 1.15rem; color: #222; font-weight: 600;">Michael Smith</h4>
+          <p style="font-size: 0.98rem; color: #007bff; margin-bottom: 10px;">SMO Zenith</p>
+          <div style="height: 2px; width: 40px; background: #007bff; margin-bottom: 12px;"></div>
+          <p style="font-size: 0.97rem; color: #666; text-align: center; margin-bottom: 18px;">Specialist in social
+            media optimization and digital engagement.</p>
+          <div class="social-icons" style="display: flex; gap: 12px;">
+            <a href="#" style="color: #007bff;"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" style="color: #007bff;"><i class="fab fa-twitter"></i></a>
+            <a href="#" style="color: #007bff;"><i class="fab fa-instagram"></i></a>
+            <a href="#" style="color: #007bff;"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+        </div>
+        <!-- Member 4 -->
+        <div class="team-matured-member"
+          style="background: #fff; border-radius: 16px; box-shadow: 0 4px 24px rgba(0,0,0,0.07); padding: 32px 24px; max-width: 260px; flex: 1 1 220px; display: flex; flex-direction: column; align-items: center; transition: box-shadow 0.2s;">
+          <img src="images/pic4.png" alt="Martin Lee"
+            style="width: 90px; height: 90px; border-radius: 50%; object-fit: cover; border: 4px solid #e6f0fa; margin-bottom: 18px;">
+          <h4 style="margin: 0 0 6px 0; font-size: 1.15rem; color: #222; font-weight: 600;">Martin Lee</h4>
+          <p style="font-size: 0.98rem; color: #007bff; margin-bottom: 10px;">Marketing Analytics</p>
+          <div style="height: 2px; width: 40px; background: #007bff; margin-bottom: 12px;"></div>
+          <p style="font-size: 0.97rem; color: #666; text-align: center; margin-bottom: 18px;">Data-driven marketer with
+            expertise in analytics and ROI measurement.</p>
+          <div class="social-icons" style="display: flex; gap: 12px;">
+            <a href="#" style="color: #007bff;"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" style="color: #007bff;"><i class="fab fa-twitter"></i></a>
+            <a href="#" style="color: #007bff;"><i class="fab fa-instagram"></i></a>
+            <a href="#" style="color: #007bff;"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+        </div>
+        <!-- Member 5 -->
+        <div class="team-matured-member"
+          style="background: #fff; border-radius: 16px; box-shadow: 0 4px 24px rgba(0,0,0,0.07); padding: 32px 24px; max-width: 260px; flex: 1 1 220px; display: flex; flex-direction: column; align-items: center; transition: box-shadow 0.2s;">
+          <img src="images/pic5.png" alt="Jessica Wong"
+            style="width: 90px; height: 90px; border-radius: 50%; object-fit: cover; border: 4px solid #e6f0fa; margin-bottom: 18px;">
+          <h4 style="margin: 0 0 6px 0; font-size: 1.15rem; color: #222; font-weight: 600;">Jessica Wong</h4>
+          <p style="font-size: 0.98rem; color: #007bff; margin-bottom: 10px;">Content Marketing</p>
+          <div style="height: 2px; width: 40px; background: #007bff; margin-bottom: 12px;"></div>
+          <p style="font-size: 0.97rem; color: #666; text-align: center; margin-bottom: 18px;">Content strategist with a
+            flair for storytelling and engagement.</p>
+          <div class="social-icons" style="display: flex; gap: 12px;">
+            <a href="#" style="color: #007bff;"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" style="color: #007bff;"><i class="fab fa-twitter"></i></a>
+            <a href="#" style="color: #007bff;"><i class="fab fa-instagram"></i></a>
+            <a href="#" style="color: #007bff;"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section class="testimonials">
+       <!-- Rating Summary -->
+    <div class="rating-summary" style="display: flex; text-align: right;">
+      <!-- <div>
+        <h4>500+</h4>
+        <p>Satisfied Customers</p>
+      </div>
+      <div>
+        <h4>4.99</h4>
+        <p class="rating">Overall Rating</p>
+      </div> -->
+    </div>
+    <h3 class="text-center">What our customers are saying about us?</h3>
+    <div class="testimonial-grid">
+      <div class="testimonial-item">
+        <div class="name">John Doe</div>
+        <div class="img"><img src="images/12.png" alt=""></div>
+        <div class="designation">Designation</div>
+        <div class="stars">★★★★★</div>
+        <p>Their strategic insights and personalized approach have been invaluable to our success. I highly recommend
+          their services to any business.</p>
+      </div>
+      <div class="testimonial-item">
+        <div class="name">John Doe</div>
+         <div class="img"><img src="images/Rectangle 11.png" alt=""></div>
+        <div class="designation">Designation</div>
+        <div class="stars">★★★★★</div>
+        <p>Their strategic insights and personalized approach have been invaluable to our success. I highly recommend
+          their services to any business.</p>
+      </div>
+      <div class="testimonial-item">
+        <div class="name">John Doe</div>
+         <div class="img"><img src="images/Rectangle 14.png" alt=""></div>
+        <div class="designation">Designation</div>
+        <div class="stars">★★★★★</div>
+        <p>Their strategic insights and personalized approach have been invaluable to our success. I highly recommend
+          their services to any business.</p>
+      </div>
+    </div>
+
+   
+  </section>
+
+  <!-- Responsive CSS -->
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+      margin: 0;
+      padding: 0;
+      color: #333;
+    }
+
+    .containers {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 32px;
+    }
+
+    .navbar {
+      background-color: #fff;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    .navbar .container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 16px 0;
+    }
+
+    .navbar .logo img {
+      height: 40px;
+    }
+
+    .nav-links {
+      list-style: none;
+      display: flex;
+      gap: 20px;
+    }
+
+    .nav-links li a {
+      text-decoration: none;
+      color: #333;
+    }
+
+    .btn {
+      background-color: #007bff;
+      color: #fff;
+      padding: 10px 20px;
+      border-radius: 5px;
+      text-decoration: none;
+    }
+
+    .hero {
+      background-image: url('images/hero-bg.jpg');
+      background-size: cover;
+      color: #fff;
+      padding: 80px 0;
+    }
+
+    .hero-content {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .about,
+    .services,
+    .why-choose-us,
+    .testimonials {
+      padding: 60px 0;
+    }
+
+    .service-grid,
+    .team-grid,
+    .testimonial-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 20px;
+    }
+
+    @media (max-width: 1200px) {
+      .containers,
+      .container,
+      [style*='max-width: 1200px'] {
+        padding-left: 32px !important;
+        padding-right: 32px !important;
+      }
+
+      .cta {
+        margin: 40px 32px !important;
+      }
+
+      #case-studies[style] {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+      }
+    }
+
+    @media (max-width: 900px) {
+      .hero-content,
+      .about-content,
+      .service-grid {
+        flex-direction: column !important;
+        gap: 32px !important;
+      }
+
+      .cta {
+        margin: 32px 8px !important;
+        min-height: 220px !important;
+        padding: 16px !important;
+      }
+
+      #case-studies[style]>div[style*='padding: 0 169px'] {
+        padding: 0 16px !important;
+      }
+    }
+
+    @media (max-width: 600px) {
+      .navbar .container,
+      .containers,
+      .container {
+        flex-direction: column !important;
+        padding: 0 8px !important;
+      }
+
+      .cta {
+        margin: 16px 0 !important;
+        min-height: 140px !important;
+        padding: 8px !important;
+      }
+
+      .cta h2 {
+        font-size: 1.2rem !important;
+      }
+
+      .cta p {
+        font-size: 0.95rem !important;
+      }
+
+      #case-studies[style],
+      #case-studies[style]>div[style*='max-width: 1200px'] {
+        padding: 20px 0 !important;
+      }
+
+      .fffff {
+        height: 50px !important;
+        margin-top: 0 !important;
+        padding-bottom: 10px !important;
+      }
+
+      .fffff .btn.outline {
+        min-width: 100px !important;
+        font-size: 0.95rem !important;
+        padding: 8px 18px !important;
+      }
+
+      .service-grid,
+      .blog-grid {
+        grid-template-columns: 1fr !important;
+        gap: 16px !important;
+      }
+    }
+  </style>
 
   <!-- Footer Section -->
-  <footer id="contact" class="footer">
+  <footer id="contact" class="footer" style="background: #f8f9fa; padding: 40px 0 0 0; margin-top: 40px; border-top: 1px solid #e5e5e5;">
     <div class="containers">
-      <p>&copy; 2025 Zenith Consulting. All rights reserved.</p>
+      <div class="row" style="display: flex; flex-wrap: wrap; gap: 32px; justify-content: space-between;">
+        <div class="footer-col" style="flex: 1 1 180px; min-width: 160px;">
+          <img src="images/Logo.png" alt="Zenith Logo" style="height: 40px; margin-bottom: 12px;">
+          <h5 style="margin-bottom: 12px; color: #000;">Quick Links</h5>
+          <ul style="list-style: none; padding: 0; margin: 0;">
+            <li><a href="#" class="nav-link">Home</a></li>
+            <li><a href="#services" class="nav-link">Services</a></li>
+            <li><a href="#pricing" class="nav-link">Pricing</a></li>
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-col" style="flex: 1 1 180px; min-width: 160px;">
+          <h5 style="margin-bottom: 12px; color: #000;">Resources</h5>
+          <ul style="list-style: none; padding: 0; margin: 0;">
+            <li><a href="#" class="nav-link">Blog</a></li>
+            <li><a href="#" class="nav-link">FAQs</a></li>
+            <li><a href="#" class="nav-link">Careers</a></li>
+            <li><a href="#" class="nav-link">Privacy Policy</a></li>
+          </ul>
+        </div>
+        <div class="footer-col" style="flex: 2 1 320px; min-width: 220px;">
+          <form>
+            <h5 style="margin-bottom: 8px; color: #000;">Subscribe to our newsletter</h5>
+            <p style="font-size: 0.97rem; color: #000; margin-bottom: 10px;">Monthly digest of what's new and exciting from us.</p>
+            <div style="display: flex; gap: 8px; flex-wrap: wrap;">
+              <input id="newsletter1" type="email" class="form-control" placeholder="Email address" style="flex: 1 1 120px; min-width: 120px; padding: 8px; border-radius: 4px; border: 1px solid #ccc;">
+              <button class="btn btn-primary" type="button" style="padding: 8px 18px; border-radius: 4px;">Subscribe</button>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; border-top: 1px solid #e5e5e5; margin-top: 32px; padding: 18px 0 0 0;">
+        <p style="margin: 0; color: #000; font-size: 0.97rem;">© 2025 Zenith Consulting. All rights reserved.</p>
+        <div style="display: flex; gap: 18px;">
+          <a href="#" aria-label="Instagram" style="color: #007bff; font-size: 1.3rem;"><i class="fab fa-instagram"></i></a>
+          <a href="#" aria-label="Facebook" style="color: #007bff; font-size: 1.3rem;"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" aria-label="LinkedIn" style="color: #007bff; font-size: 1.3rem;"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+      </div>
     </div>
   </footer>
+
+  <!-- Scripts (only include once, and at the end of body) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  <script src="js/script.js"></script>
 </body>
+
 </html>
